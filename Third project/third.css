@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(204, 234, 247);
+    height: 100vh;
+    width: 100%;
+}
+.main{
+    border: solid 2px black;
+    text-align: center;
+    /* height: 90vh; */
+    padding: 33px;
+    background-color: white;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 12px;
+    position: absolute;
+    width: 400px;
+    height: 610px;
+    gap: 14px;
+}
+.login{
+    font-size: 28px;
+    font-weight: 900;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 15px;
+   
+
+}
+.username{
+    font-size: 17px;
+    font-weight: 600;
+}
+.password{
+    font-size: 17px;
+    font-weight: 600;
+}
+.forgot{
+    text-align: end;
+    color: darkblue;
+}
+input{
+ border: none; 
+ outline: none;
+font-size: 16px;
+    padding-left: 3px;
+    width: 20vw;
+}
+button{
+    padding: 14px;
+    border-radius: 32px;
+    background: linear-gradient(to right, #8d68c5, #e34494);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+}
+.other-signup{
+    margin-top: 44px;
+    font-weight: 700;
+    font-size: 19px;
+}
+.social-media ul{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 7px;
+    font-size: 21px;
+}
+.fb a{
+    color: white;
+    background-color: darkblue;
+    padding: 6px 10px 6px 10px;
+    border-radius: 50%;
+}
+.twitter a{
+    color: white;
+    background-color: rgb(23, 104, 158);
+    padding: 7px 8px 6px 8px;
+    border-radius: 50%;
+}
+.google a{
+    color: white;
+    background-color: rgb(255, 60, 0);
+    padding: 7px 8px 6px 8px;
+    border-radius: 50%;
+}
+.last-part{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-weight: 550;
+    font-size: 19px;
+}
