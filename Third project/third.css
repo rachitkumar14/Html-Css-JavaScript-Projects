@@ -20,7 +20,7 @@ body{
     display: flex;
     border: none;
     flex-direction: column;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     border-radius: 12px;
     position: absolute;
     width: 400px;
@@ -50,13 +50,14 @@ form{
 .forgot{
     text-align: end;
     color: darkblue;
+    cursor: pointer;
 }
 input{
  border: none; 
  outline: none;
 font-size: 16px;
     padding-left: 3px;
-    width: 20vw;
+    width: 170px;
 }
 button{
     padding: 14px;
@@ -105,7 +106,21 @@ button{
     margin-top: 55px;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 10px;
+   
+}
+.last-one{
+    font-size: 20px;
     font-weight: 550;
-    font-size: 19px;
+    cursor: pointer;
+}
+@media screen and (max-width:450px){
+  .main{
+    width: 80vw;
+  }
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
